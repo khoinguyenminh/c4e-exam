@@ -7,9 +7,9 @@ function handleChange(input) {
 // // Find prime numbers
 "use strict"
 function findPrime() {
-    const a = parseInt(document.getElementById("numbera").value);
-    const b = parseInt(document.getElementById("numberb").value);
-    document.getElementById("result").innerHTML = '';
+    const a = parseInt(document.getElementById("numbera").value)
+    const b = parseInt(document.getElementById("numberb").value)
+    const result = []
     if (a <= b) {
         for (let i = a; i <= b; i++) {
             let flag = 0;
@@ -21,12 +21,20 @@ function findPrime() {
             }
 
             if (i > 1 && flag == 0) {
-                document.getElementById("titleresult").innerHTML = "List of Prime numbers from " + a + "-" + b;
-                document.getElementById("result").insertAdjacentHTML('afterend', i + '<br>');
+                result.push(i)
+                let sumPrime = 0
+                for (let inde in result){
+                    sumPrime = sumPrime + result[inde]
+                }
+                document.getElementById("titleresult").innerHTML = "Total of prime number from " + a + "-" + b + " is " + sumPrime;
+                
             }
+           
         }
     } else {
         alert("Please input b is number and greater than a")
     }
 
 }
+
+
