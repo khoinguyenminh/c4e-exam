@@ -1,11 +1,19 @@
 
+"use strict"
 //restricted input > 0
 function handleChange(input) {
     if (input.value < 0) input.value = 0;
 }
 
-// // Find prime numbers
-"use strict"
+// function clearall(){
+//     const a = document.getElementById("numbera")
+//     const b = document.getElementById("numberb")
+//     a.reset()
+//     b.reset()
+//     document.getElementById("titleresult").style.display="none";
+// }
+
+// Find prime numbers
 function findPrime() {
     const a = parseInt(document.getElementById("numbera").value)
     const b = parseInt(document.getElementById("numberb").value)
@@ -24,7 +32,7 @@ function findPrime() {
                 result.push(i)
                 let sumPrime = 0
                 for (let inde in result){
-                    sumPrime = sumPrime + result[inde]
+                    sumPrime += result[inde]
                 }
                 document.getElementById("titleresult").innerHTML = "Total of prime number from " + a + "-" + b + " is " + sumPrime;
                 
