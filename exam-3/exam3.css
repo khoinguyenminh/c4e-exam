@@ -8,7 +8,7 @@
     --font: "Poppins", sans-serif;
     --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
     --shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
-    
+
 }
 
 *,
@@ -27,33 +27,34 @@ body {
     overflow-x: hidden;
     font-weight: 300;
     background: #BFC8E6 !important;
-    
+
 }
 
 .navbar-collapse {
     justify-content: space-between;
 }
-.navbar{
+
+.navbar {
     margin: 0 20px;
 }
 
-.container{
-background: #FFFFFF;
-border-radius: 16px;
+.container {
+    background: #FFFFFF;
+    border-radius: 16px;
 
 }
 
 header>h1 {
     padding: 20px;
     font-family: 'Merriweather';
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 40px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
 
-/* #151B32 */
+    /* #151B32 */
 
-color: #151B32;
+    color: #151B32;
 
 }
 
@@ -65,81 +66,91 @@ color: #151B32;
 }
 
 #btnSearch {
-    
+
     font-family: FontAwesome, 'Poppins', Verdana, sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
 
 
-/* #151B32 */
+    /* #151B32 */
 
-color: #151B32;
+    color: #151B32;
 
-opacity: 0.7;
+    opacity: 0.7;
 }
-.nav-link{
+
+.nav-link {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
 
 
-/* #151B32 */
+    /* #151B32 */
 
-color: #151B32;
+    color: #151B32;
 
-opacity: 0.8;
+    opacity: 0.8;
 }
-.nav-link:active{
+
+.active {
+    background: #849FFF !important;
+    border-radius: 8px;
+}
+
+.nav-link {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
-.card-title{
+
+.card-title {
     font-family: 'Merriweather';
-font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 23px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
 
 
-/* #151B32 */
+    /* #151B32 */
 
-color: #151B32;
+    color: #151B32;
 }
-.card-text{
+
+.card-text {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
 
 
-/* #151B32 */
+    /* #151B32 */
 
-color: #151B32;
+    color: #151B32;
 }
-.text-body-secondary{
+
+.text-body-secondary {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height */
-color: #516FD5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #516FD5;
 
 
 }
@@ -148,7 +159,7 @@ color: #516FD5;
     padding: 0 14px;
 }
 
-.text-body-secondary > span {
+.text-body-secondary>span {
     padding: 1%;
     margin: 0 auto;
     border: 1px solid #BFC8E6;
